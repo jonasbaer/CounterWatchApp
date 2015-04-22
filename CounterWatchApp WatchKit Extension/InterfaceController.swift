@@ -15,6 +15,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var startButtonLabel: WKInterfaceButton!
     @IBOutlet weak var instructionLabel: WKInterfaceLabel!
     @IBOutlet weak var timerViewLabel: WKInterfaceTimer!
+    @IBOutlet weak var resetButtonLabel: WKInterfaceButton!
 
     //-------------------
     var key = "FunctionsRequestKey"
@@ -41,12 +42,17 @@ class InterfaceController: WKInterfaceController {
     @IBAction func startButtonPressed() {
         instructionLabel.setText("Get some shit done !!!")
 
-        timerViewLabel.setTextColor(UIColor.redColor())
+        timerViewLabel.setTextColor(UIColor.blueColor())
         timerViewLabel.start()
 
         startButtonLabel.setAlpha(0.4)
         startButtonLabel.setEnabled(false)
 
+        resetButtonLabel.setEnabled(true)
+        resetButtonLabel.setAlpha(0.8)
+
+        //JB : !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        //JB : Here you can execute the connection to the Phone !!!
         self.createConnectionToPhone("firstAnswer")
     }
 
@@ -56,8 +62,11 @@ class InterfaceController: WKInterfaceController {
         timerViewLabel.setTextColor(UIColor.whiteColor())
         timerViewLabel.stop()
 
-        startButtonLabel.setAlpha(1)
+        startButtonLabel.setAlpha(0.8)
         startButtonLabel.setEnabled(true)
+
+        resetButtonLabel.setAlpha(0.4)
+        resetButtonLabel.setEnabled(false)
     }
 
     //-------------------
@@ -85,13 +94,5 @@ class InterfaceController: WKInterfaceController {
         //        self.phoneAnswerMessageLabel.setText(answerFromPhone)
     }
     //-------------------
-
-
-
-
-
-
-
-
-
+    
 }

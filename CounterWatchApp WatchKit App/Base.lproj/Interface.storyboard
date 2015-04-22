@@ -12,17 +12,18 @@
                     <items>
                         <group width="1" height="181" alignment="left" backgroundImage="pic.jpg" layout="vertical" id="lsQ-VB-sjo">
                             <items>
-                                <button width="1" alignment="left" title="Start" id="Abh-tS-2VO">
+                                <button width="1" alignment="left" alpha="0.69999999999999973" title="start" id="Abh-tS-2VO">
                                     <color key="titleColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" red="0.89903687169312163" green="0.89903687169312163" blue="0.89903687169312163" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                     <connections>
                                         <action selector="startButtonPressed" destination="AgC-eL-Hgc" id="z6B-ls-iBP"/>
                                     </connections>
                                 </button>
                                 <label width="136" height="42.5" alignment="left" text="Get some shit done !!!" textAlignment="center" minimumScaleFactor="0.0" id="t6i-PR-lnW"/>
                                 <timer width="136" height="39.5" alignment="left" textAlignment="center" id="Kxv-K4-dxT"/>
-                                <button width="1" alignment="left" verticalAlignment="bottom" title="reset" id="ow6-7r-482">
+                                <button width="1" alignment="left" verticalAlignment="bottom" alpha="0.80000000000000004" title="reset" id="ow6-7r-482">
                                     <color key="titleColor" red="0.0015914351851852304" green="0.0015914351851852304" blue="0.0015914351851852304" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
                                     <connections>
                                         <action selector="resetButtonPressed" destination="AgC-eL-Hgc" id="X7X-7L-Ift"/>
                                     </connections>
@@ -32,6 +33,7 @@
                     </items>
                     <connections>
                         <outlet property="instructionLabel" destination="t6i-PR-lnW" id="bnn-zU-W1i"/>
+                        <outlet property="resetButtonLabel" destination="ow6-7r-482" id="pkn-UE-1CO"/>
                         <outlet property="startButtonLabel" destination="Abh-tS-2VO" id="sja-EU-D0U"/>
                         <outlet property="timerViewLabel" destination="Kxv-K4-dxT" id="GlV-dl-8hT"/>
                     </connections>
