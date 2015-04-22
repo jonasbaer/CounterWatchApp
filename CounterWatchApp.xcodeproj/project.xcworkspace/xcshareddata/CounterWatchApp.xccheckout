@@ -12,20 +12,24 @@
 	<dict>
 		<key>7DA90805A2E3B71F053DC3FD06897079834FBF51</key>
 		<string>https://github.com/jonasbaer/PlaygroundLearnings.git</string>
+		<key>99D1E930895EF8AF1272AF1AFD11FE3A7C0166B8</key>
+		<string>https://github.com/jonasbaer/CounterWatchApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CounterWatchApp/CounterWatchApp.xcodeproj</string>
+	<string>CounterWatchApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7DA90805A2E3B71F053DC3FD06897079834FBF51</key>
 		<string>../../..</string>
+		<key>99D1E930895EF8AF1272AF1AFD11FE3A7C0166B8</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jonasbaer/PlaygroundLearnings.git</string>
+	<string>https://github.com/jonasbaer/CounterWatchApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7DA90805A2E3B71F053DC3FD06897079834FBF51</string>
+	<string>99D1E930895EF8AF1272AF1AFD11FE3A7C0166B8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>7DA90805A2E3B71F053DC3FD06897079834FBF51</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Real-learning</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99D1E930895EF8AF1272AF1AFD11FE3A7C0166B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CounterWatchApp</string>
 		</dict>
 	</array>
 </dict>

@@ -22,6 +22,7 @@
 		EE39F6D21AE76FEF000DDF03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE39F6D11AE76FEF000DDF03 /* Images.xcassets */; };
 		EE39F6D51AE76FEF000DDF03 /* CounterWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE39F6B81AE76FEF000DDF03 /* CounterWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EEA7B4651AE7705E00A74F24 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEA7B4641AE7705E00A74F24 /* pic.jpg */; };
+		EEA7B4671AE77A5700A74F24 /* connectionToWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA7B4661AE77A5700A74F24 /* connectionToWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		EE39F6CF1AE76FEF000DDF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		EE39F6D11AE76FEF000DDF03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EEA7B4641AE7705E00A74F24 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+		EEA7B4661AE77A5700A74F24 /* connectionToWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = connectionToWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				EE39F6941AE76FCF000DDF03 /* AppDelegate.swift */,
+				EEA7B4661AE77A5700A74F24 /* connectionToWatch.swift */,
 				EE39F6961AE76FCF000DDF03 /* ViewController.swift */,
 				EE39F6981AE76FCF000DDF03 /* Main.storyboard */,
 				EE39F69B1AE76FCF000DDF03 /* Images.xcassets */,
@@ -374,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA7B4671AE77A5700A74F24 /* connectionToWatch.swift in Sources */,
 				EE39F6971AE76FCF000DDF03 /* ViewController.swift in Sources */,
 				EE39F6951AE76FCF000DDF03 /* AppDelegate.swift in Sources */,
 			);
